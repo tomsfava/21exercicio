@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/SVG/DTD/svg11.dtd" >
+<svg version="1.1" baseProfile="full"  width="791.3385" height="791.3385" viewBox="0 0 569.7638 569.7638" preserveAspectRatio="xMidYMid" xmlns="http://www.w3.org/2000/svg" >
+
+<g lengthAdjust="spacingAndGlyphs" xml:space='preserve' >
+<g  transform="translate(8.50,8.50)" >
+<path d="
+M0.0 0.0
+L0.0 552.75
+L552.75 552.75
+L552.75 0.0
+Z
+" fill="rgb(224,187,108)" fill-rule="nonzero" />
+<line x1="63.77" y1="63.77" x2="63.77" y2="488.97" fill="none" stroke="black" stroke-width="5.66px" stroke-linecap="square" />
+<line x1="148.81" y1="63.77" x2="148.81" y2="488.97" fill="none" stroke="black" stroke-width="1.98px" stroke-linecap="butt" />
+<line x1="233.85" y1="63.77" x2="233.85" y2="488.97" fill="none" stroke="black" stroke-width="1.98px" stroke-linecap="butt" />
+<line x1="318.89" y1="63.77" x2="318.89" y2="488.97" fill="none" stroke="black" stroke-width="1.98px" stroke-linecap="butt" />
+<line x1="403.93" y1="63.77" x2="403.93" y2="488.97" fill="none" stroke="black" stroke-width="1.98px" stroke-linecap="butt" />
+<line x1="488.97" y1="63.77" x2="488.97" y2="488.97" fill="none" stroke="black" stroke-width="5.66px" stroke-linecap="square" />
+<line x1="63.77" y1="63.77" x2="488.97" y2="63.77" fill="none" stroke="black" stroke-width="5.66px" stroke-linecap="square" />
+<line x1="63.77" y1="148.81" x2="488.97" y2="148.81" fill="none" stroke="black" stroke-width="1.98px" stroke-linecap="butt" />
+<line x1="63.77" y1="233.85" x2="488.97" y2="233.85" fill="none" stroke="black" stroke-width="1.98px" stroke-linecap="butt" />
+<line x1="63.77" y1="318.89" x2="488.97" y2="318.89" fill="none" stroke="black" stroke-width="1.98px" stroke-linecap="butt" />
+<line x1="63.77" y1="403.93" x2="488.97" y2="403.93" fill="none" stroke="black" stroke-width="1.98px" stroke-linecap="butt" />
+<line x1="63.77" y1="488.97" x2="488.97" y2="488.97" fill="none" stroke="black" stroke-width="5.66px" stroke-linecap="square" />
+<circle cx="148.81" cy="233.85" r="43.07" fill="black"/>
+<circle cx="233.85" cy="148.81" r="43.07" fill="black"/>
+<circle cx="233.85" cy="233.85" r="42.09" fill="white"/>
+<circle cx="233.85" cy="233.85" r="42.09" fill="none" stroke="black" stroke-width="1.98px"/>
+<circle cx="233.85" cy="318.89" r="43.07" fill="black"/>
+<circle cx="318.89" cy="148.81" r="42.09" fill="white"/>
+<circle cx="318.89" cy="148.81" r="42.09" fill="none" stroke="black" stroke-width="1.98px"/>
+<circle cx="318.89" cy="318.89" r="42.09" fill="white"/>
+<circle cx="318.89" cy="318.89" r="42.09" fill="none" stroke="black" stroke-width="1.98px"/>
+<circle cx="403.93" cy="233.85" r="42.09" fill="white"/>
+<circle cx="403.93" cy="233.85" r="42.09" fill="none" stroke="black" stroke-width="1.98px"/>
+<path d="
+M237.83 233.72
+C237.93 234.82 237.98 235.91 237.98 237.01
+C237.98 239.98 237.87 241.78 237.65 242.41
+C237.42 243.05 236.65 243.90 235.33 244.97
+C234.36 245.77 233.17 246.17 231.78 246.17
+C230.93 246.17 230.18 245.82 229.54 245.12
+C228.89 244.42 228.57 243.54 228.57 242.47
+C228.57 241.27 228.81 240.26 229.31 239.44
+C230.01 238.32 231.25 237.20 233.03 236.10
+C234.81 234.99 236.41 234.20 237.83 233.72
+Z
+M237.12 217.88
+C234.03 217.88 231.42 218.23 229.28 218.92
+C227.71 219.47 226.02 220.42 224.21 221.78
+C222.41 223.14 221.05 224.54 220.16 225.99
+C219.56 227.01 219.26 228.23 219.26 229.65
+C219.26 230.20 219.43 230.62 219.78 230.92
+C220.58 230.92 221.65 230.60 223.00 229.95
+C223.35 229.77 224.01 229.49 225.00 229.11
+C225.98 228.72 226.66 228.29 227.03 227.82
+C227.18 227.64 227.34 227.01 227.52 225.91
+C227.77 224.39 228.07 223.36 228.42 222.81
+C228.89 222.06 229.65 221.45 230.70 220.98
+C231.74 220.51 232.89 220.27 234.13 220.27
+C235.38 220.27 236.25 220.64 236.75 221.39
+C237.57 222.61 237.98 224.90 237.98 228.27
+C237.98 229.24 237.95 230.20 237.87 231.14
+L228.57 234.88
+C226.95 235.58 226.00 236.00 225.73 236.15
+C223.93 237.15 222.63 238.06 221.82 238.90
+C221.01 239.73 220.42 240.57 220.06 241.42
+C219.70 242.27 219.52 243.10 219.52 243.92
+C219.52 245.69 220.13 247.12 221.35 248.20
+C222.57 249.29 224.48 249.83 227.07 249.83
+C229.89 249.83 232.27 249.35 234.21 248.39
+C236.15 247.43 237.66 246.00 238.73 244.11
+C239.60 246.15 240.57 247.58 241.63 248.39
+C242.69 249.20 243.95 249.61 245.42 249.61
+C246.86 249.61 248.07 249.19 249.04 248.35
+C250.02 247.52 250.80 245.99 251.40 243.78
+L251.36 243.59
+C251.31 243.34 251.17 243.13 250.95 242.95
+L250.09 242.39
+L249.42 242.65
+L248.30 244.41
+C248.10 244.56 247.86 244.63 247.59 244.63
+C247.14 244.63 246.77 244.44 246.48 244.06
+C246.20 243.67 246.05 242.95 246.05 241.91
+L246.05 240.75
+L245.98 236.23
+L246.09 230.06
+C246.09 226.30 245.81 223.69 245.25 222.25
+C244.69 220.80 243.69 219.71 242.26 218.98
+C240.83 218.24 239.12 217.88 237.12 217.88
+Z
+" fill="black" fill-rule="nonzero" />
+</g>
+</g>
+</svg>

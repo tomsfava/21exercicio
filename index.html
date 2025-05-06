@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaGo: o filme</title>
+    <link rel="stylesheet" href="dist/styles/main.css">
+</head>
+<body>
+    <header class="header header--is-hidden">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/main.jpg" alt="AlphaGo">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="https://online-go.com" class="button button--secundario">Jogue Agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="https://www.youtube.com/watch?v=WXuK6gekU1Y" class="button button--escuro">Assistir</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__brand">
+                <img src="./dist/images/main.jpg" alt="Disney+">
+            </div>
+            <h3 class="title--small">
+                A evolução da máquina, testando os limites do humano.
+            </h3>
+            <p class="text">
+                O filme Alpha Go mostra as trajetórias da equipe da DeepMind e também 
+                do jogador de Go coreano Lee Sedol, antes, durante e depois da serie 
+                de partidas que terminou com a vitória de 4 a 1 para a inteligência artificial, 
+                marcando talvez sua última derrota. 
+            </p>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <img src="./dist/images/ko-rule-1.svg" alt="Disney+ - Star+ - Combo+">
+                    <a href="https://way-to-go.gitlab.io/#/en/intro" class="button">Aprenda a jogar</a>
+                    <span class="text">Interactive way to go</span>
+                </li>
+                <li class="hero__content__combos__combo">
+                    <img src="./dist/images/stone-hello.png" alt="Disney+ - Star+ - Combo+">
+                    <a href="https://senseis.xmp.net/" class="button">Aprenda a jogar</a>
+                    <span class="text">Sensei's library</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="jogadores" class="shows__tabs__button shows__tabs__button--is-active">
+                Jogadores
+            </button>
+            <button data-tab-button="aberturas" class="shows__tabs__button">
+                Aberturas
+            </button>
+        </nav>
+        <ul data-tab-id="jogadores" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/jogadores_leesedol.webp" alt="Lee Sedol">
+                <span>Lee Sedol, o herói que venceu o Alpha Go</span>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/jogadores_takemiyamasaki.jpeg" alt="Takemiya Masaki">
+                <span>Takemiya Masaki, inventor do 'estilo cósmico'</span>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/jogadores_michaelredmond.jpg" alt="Michael Redmond">
+                <span>Michael Redmond, o melhor jogador do ocidente</span>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/jogadores_shinjinseo.jpeg" alt="Shin Jinseo">
+                <span>Shin Jinseo, o prodigio, atual melhor do mundo</span>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/jogadores_kejie.jpg" alt="Ke Jie">
+                <span>Ke Jie, perdeu 3 batalhas contra o alpha Go</span>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/jogadores_ichirikiryo.jpeg" alt="Ichiriki Ryo">
+                <span>Ichiriki Ryo, grande jogador japones</span>
+            </li>
+        </ul>
+        <ul data-tab-id="aberturas" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/abertura_alpha_go.jpg" alt="AlphaGo">
+                <span>Abertura Alpha Go, popularizada por este</span>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/abertura_chinesa.jpg" alt="Chinesa">
+                <span>Abertura Chinesa, muito popular no Japão</span>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/abertura_chinesa_alta.jpg" alt="Chinesa Alta">
+                <span>Abertura Chinesa Alta, busca mais influência</span>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/abertura_kobayashi.jpg" alt="Kobayashi">
+                <span>Abertura Kobayashi, tem o nome de seu inventor</span>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/abertura_sanrensei.jpg" alt="Sanrensei">
+                <span>Sanrensei, a favorita dos que jogam o estilo cósmico</span>
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/abertura_moderna.jpg" alt="Moderna">
+                <span>Abertura Moderna, muita disputa no tabuleiro</span>
+            </li>
+        </ul>
+    </section>
+    <section class="plans">
+        <h2 class="title--big">Porque aprender Go?</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <strong class="title--small">Poucas regras</strong>
+                <p class="text--big">
+                    Apesar da complexidade do jogo, a estrutura das regras é simples. Se bem que dizem que para aprender o Go são necessárias 2000 derrotas.
+                </p>
+            </li>
+            <li class="plans__list__item">
+                <strong class="title--small">Comunidade</strong>
+                <p class="text--big">
+                    Nos diferentes servidores onde o jogo é jogado online, sobram pessoas disponíveis e interessadas no crescimento do jogo, por isso solícitas a ensinar.
+                </p>
+            </li>
+            <li class="plans__list__item">
+                <strong class="title--small">Ginástica</strong>
+                <p class="text--big">
+                    A quantidade de sequências a ser memorizadas, o reconhecimento dos padrões, uma verdadeira ginástica cerebral.
+                </p>
+            </li>
+        </ul>
+        <p class="text--small">
+            *Existem mitologias que contam a história de um espectador que assistiu uma partida de Go travada entre dois deuses e acabou perdendo tudo o que tinha por não perceber a passagem do tempo. Cuidado, pode ser viciante.
+        </p>
+    </section>
+    <section class="image-text-section">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WXuK6gekU1Y?si=QCYAagyGEXkahmvp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="image-text-section__content">
+            <h2 class="title">Assista hoje.</h2>
+            <p class="text--big">
+                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Conheça parte importante da história da IA e acompanhe a luta dos humanos contra a insignificância. Disponível no YouTube.
+            </p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/main.jpg" alt="Disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/globe.svg" alt="Globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Politica de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="https://pt.wikipedia.org/wiki/Go" class="text--small">Sobre o Go</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                2025 Dev na ante-sala. Todos os direitos reservados. Serviços de front e back end pago. Conteúdo sujeito a disponibilidade.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>

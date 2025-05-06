@@ -1,0 +1,184 @@
+@use 'variaveis';
+@use 'hero';
+@use 'shows';
+@use 'plans';
+@use 'footer';
+@use 'header';
+
+@font-face {
+    font-family: Avenir;
+    src: url(../../assets/fonts/Avenir-Regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../../assets/fonts/Avenir-Bold.woff2);
+    font-weight: 700;
+}
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Avenir, sans-serif;
+}
+
+body {
+    background-color: variaveis.$corDeFundo;
+
+}
+
+@mixin text($fontSize: 12.8px) {
+    font-size: $fontSize;
+    line-height: $fontSize + 8px;
+    color: variaveis.$corTextoPrincipal;
+}
+
+@mixin title($fontSize: 32px) {
+    @include text($fontSize);
+    color: variaveis.$corTextoSecundaria;
+}
+
+.text--big {
+    @include text(14.4px);
+}
+
+.text {
+    @include text;
+}
+
+.text--small {
+    @include text(9.6px);
+}
+
+.title--big {
+    @include title(35.2px);
+
+    @media (max-width: 768px) {
+        @include title (26px);
+    }
+}
+
+.title {
+    @include title;
+
+    @media (max-width: 768px) {
+        @include title (24px);
+    }
+}
+
+.title--small {
+    @include title(22.4px);
+
+    @media (max-width: 768px) {
+        @include title(22px);
+    }
+}
+
+.link-text {
+    @include text(14.4px);
+    color: variaveis.$corTextoSecundaria;
+    text-decoration: underline;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    font-size: 14.8px;
+    color: variaveis.$corTextoSecundaria;
+    background-color: variaveis.$corBotaoPrimario;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px 14px;
+    letter-spacing: 1px;
+    border: 1px solid variaveis.$corBotaoPrimario;
+
+    &:hover {
+        background-color: lighten(variaveis.$corBotaoPrimario, 3%);
+    }
+
+    &--secundario {
+        background-color: variaveis.$corBotaoSecundario;
+        border-color: variaveis.$corBotaoSecundario;
+
+        &:hover {
+            background-color: lighten(variaveis.$corBotaoSecundario, 3%);
+        }
+    }
+
+    &--escuro {
+        background-color: rgba(variaveis.$corBotaoEscuro, 0.8);
+        border-color: variaveis.$corTextoSecundaria;
+
+        &:hover {
+            background-color: variaveis.$corTextoSecundaria;
+            color: variaveis.$corDeFundo;
+        }
+    }
+
+}
+
+.image-text-section {
+    padding: 4.4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    &__content {
+        padding: 0 1.6vw;
+
+        h2 {
+            margin-bottom: 19.2px;
+        }
+    }
+
+    &--image-full-width {
+        display: block;
+        position: relative;
+
+        img {
+            width: 100%
+        }
+
+        &__content {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            height: 100%;
+            width: calc(50% - 4.4vw);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @media (max-width: 768px) {
+                display: block;
+                position: relative;
+                left: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.text--subItem {
+    list-style-type: disc;
+
+    li {
+        padding-top: 20px;
+        margin-left: 40px;
+    }
+}
