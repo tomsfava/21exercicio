@@ -31,4 +31,4 @@ exports.default = function(){
     gulp.watch('./src/scripts/*.js', {ignoreInitial: false}, gulp.series(scripts));
     gulp.watch('./src/images/*', {ignoreInitial: false}, gulp.series(images));
 }
-exports.watch = watch;
+//exports.watch = watch;
