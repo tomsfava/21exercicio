@@ -26,6 +26,8 @@ function scripts() {
     .pipe(gulp.dest('./dist/js'))
 }
 
+exports.build = gulp.parallel(styles, scripts, images)
+
 exports.default = function(){
     gulp.watch('./src/styles/*.scss', {ignoreInitial: false}, gulp.series(styles));
     gulp.watch('./src/scripts/*.js', {ignoreInitial: false}, gulp.series(scripts));
