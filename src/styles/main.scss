@@ -57,7 +57,7 @@ body {
     @include title(35.2px);
 
     @media (max-width: 768px) {
-        @include title (26px);
+        @include title(26px);
     }
 }
 
@@ -65,7 +65,7 @@ body {
     @include title;
 
     @media (max-width: 768px) {
-        @include title (24px);
+        @include title(24px);
     }
 }
 
@@ -170,7 +170,7 @@ body {
                 left: 0;
                 width: 100%;
             }
-        }
+        }        
     }
 }
 
